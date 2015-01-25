@@ -28,3 +28,10 @@ Good luck!
 1.  Download and extract the UCI HAR Dataset zip file linked in the problem statement
 2.  Set the working directory to the UCI HAR Dataset directory (see ?set.wd)
 3.  Source the run_analysis.R scipt (see ?source)
+
+## Purpose of run_analysis.R
+The UCI HAR Dataset contains a number of measurements collected from smartphone gyroscopes and accelerometers and corresponding physical activities of the smartphone user during collection. The objective of this script is to collect and summarize the data in two dataframes: merged.set and summary.set.
+
+The merged.set data frame contains the mean and standard deviation of each feature of each observation ofthe data set along with the observations associated activity and subject.
+
+The summary.set data frame contains the average of the mean and standard deviation of each feature across all observations of a given activity for a given subject for all activities and all subjects.
